@@ -1,5 +1,6 @@
 .where {
-    
+    width: 1280px;
+    margin-left: 283px;
     padding-top: 155px;
     padding-bottom: 133px;
     color: var(--light-color);

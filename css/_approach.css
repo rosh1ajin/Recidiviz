@@ -13,6 +13,7 @@
 .approach__left {
       grid-column: 5 span;
       padding-top: 33px;
+      color: #00413e;
   
       @include big-desktop {
         margin-bottom: var(--offset);

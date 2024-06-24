@@ -123,13 +123,15 @@ html {
   }
   
   .graphics {
-    width: 100%;
+    margin-left: 283px;
+    position: relative;
     display: flex;
-    justify-content: center;
+    height: 680px;
+    width: 1280px;
     align-items: center;
+    justify-content: center;
     height: 100vh;
   }
-  
   .burger {
     @include burger;
   

@@ -12,6 +12,7 @@
       line-height: 38px;
       letter-spacing: 1.2px;
       text-align: center;
+      color: #014c48;
   
       @include small-tablet {
         font-size: 24px;
@@ -35,6 +36,7 @@
       display: flex;
       flex-direction: column;
       align-items: center;
+      color: #014c48;
     }
       .steps__item::before {
         counter-increment: steps;

@@ -6,9 +6,7 @@
     background-color: #001414;
     left: 15%;
     align-items: center;
-
     justify-content: center;
-    height: 100vh;
 }
 .info::before {
       content: "";
@@ -61,6 +59,7 @@
   
  .info__text {
       max-width: 542px;
+      padding: 0;
     }
   
     .info__title {
@@ -69,7 +68,7 @@
       font-weight: 400;
       font-size: 22px;
       line-height: 22px;
-      color: var(--light-color);
+      color: white;
     }
   
     .info__descr {
