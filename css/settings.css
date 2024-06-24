@@ -39,7 +39,7 @@ html {
   .is-hidden {
     display: none !important; /* stylelint-disable-line declaration-no-important */
   }
-  
+
   .btn-reset {
     border: none;
     padding: 0;
@@ -80,6 +80,7 @@ html {
   }
   
   .container {
+    width: 1000px;
     margin: 0 auto;
     padding: 0 var(--container-offset);
     max-width: var(--container-width);
@@ -123,7 +124,10 @@ html {
   
   .graphics {
     width: 100%;
-    background-color: #f4f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
   }
   
   .burger {
